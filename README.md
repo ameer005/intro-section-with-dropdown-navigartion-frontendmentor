@@ -4,7 +4,7 @@
 
 ### Links
 
-- Live Site URL: [https://ameer005.github.io/interactive-price-component-frontendmentor/](https://ameer005.github.io/interactive-price-component-frontendmentor/)
+- Live Site URL: [https://ameer005.github.io/intro-section-with-dropdown-navigartion-frontendmentor/](https://ameer005.github.io/intro-section-with-dropdown-navigartion-frontendmentor/)
 
 ### Built with
 

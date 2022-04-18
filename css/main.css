@@ -22,6 +22,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 78em) {
@@ -38,9 +39,11 @@ html {
 
 body {
   font-family: "Epilogue", sans-serif;
+  width: 100%;
   font-weight: 500;
   line-height: 1;
   background-color: var(--color-main);
+  overflow-x: hidden;
 }
 
 .container {
@@ -51,7 +54,6 @@ body {
   -ms-grid-columns: [full-start] minmax(6rem, 1fr) [center-start] ([col-start] minmax(min-content, 14.25rem) [col-end])[8] [center-end] minmax(6rem, 1fr) [full-end];
       grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(-webkit-min-content, 14.25rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
       grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14.25rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
-  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -69,6 +71,7 @@ body {
 
 .header {
   grid-column: full-start / full-end;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,7 +87,6 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    overflow-x: hidden;
   }
 }
 
@@ -387,7 +389,7 @@ body {
 
 @media only screen and (max-width: 31.25em) {
   .hero {
-    gap: 4.8rem;
+    gap: 5.6rem;
   }
 }
 
@@ -438,7 +440,7 @@ body {
 @media only screen and (max-width: 31.25em) {
   .hero__text {
     width: 80%;
-    margin-bottom: 2rem;
+    margin-bottom: 3.2rem;
   }
 }
 
